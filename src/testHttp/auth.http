@@ -1,0 +1,17 @@
+POST  http://localhost:5000/api/auth/signup HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "Marco Sartor",
+    "email": "marco@sartor.com",
+    "password": "123456"
+}
+
+###
+POST  http://localhost:5000/api/auth/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "marco@sartor.com",
+    "password": "1234526"
+}
